@@ -62,7 +62,6 @@ class Student
     sql = "SELECT * FROM students WHERE name = ?"
 
     DB[:conn].execute(sql, name)
-    binding.pry
   end
 
 end
